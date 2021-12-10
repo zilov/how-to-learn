@@ -368,7 +368,7 @@ h1, h2, h3, h4, p, a {
   height: 16px;
 }
 
-.footer__link_with_icon {
+.footer__column_link_with-icon {
   display: flex;
   align-items: center;
 }
