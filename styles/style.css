@@ -368,6 +368,7 @@ h1, h2, h3, h4, p, a {
   height: 16px;
 }
 
+/* Box to align icon with text */
 .footer__column_link_with-icon {
   display: flex;
   align-items: center;
