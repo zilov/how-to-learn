@@ -8,14 +8,19 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .border {
   border: pink solid 0px;
 }
 
-h1, h2, h3, h4, p, a {
+h1,
+h2,
+h3,
+h4,
+p,
+a {
   margin: 0;
   padding: 0;
 }
@@ -239,7 +244,7 @@ h1, h2, h3, h4, p, a {
   font-weight: normal;
   line-height: 51px;
   font-size: 36px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .kaufman {
