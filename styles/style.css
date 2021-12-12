@@ -374,7 +374,7 @@ a {
 }
 
 /* Box to align icon with text */
-.footer__column_link_with-icon {
+.footer__link_with-icon {
   display: flex;
   align-items: center;
 }
