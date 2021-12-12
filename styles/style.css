@@ -12,7 +12,7 @@
 }
 
 .border {
-  border: pink solid 0px;
+  border: pink solid 1px;
 }
 
 h1,
@@ -358,6 +358,7 @@ a {
 
 .footer__column-link {
   display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -367,14 +368,7 @@ a {
 }
 
 .footer__social-icon {
-  display: flex;
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
-
-/* Box to align icon with text */
-.footer__link_with-icon {
-  display: flex;
-  align-items: center;
 }
