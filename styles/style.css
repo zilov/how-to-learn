@@ -12,20 +12,12 @@
 }
 
 .border {
-  border: pink solid 0px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-a {
-  margin: 0;
-  padding: 0;
+  border: pink solid 5px;
 }
 
 .section-title {
+  margin: 0;
+  padding: 0;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -35,7 +27,8 @@ a {
 
 .section-subtitle {
   width: 60%;
-  margin-top: 20px;
+  margin: 20px 0 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -46,6 +39,7 @@ a {
   display: flex;
   width: 1100px;
   margin: 0 auto;
+  padding: auto;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
@@ -58,12 +52,15 @@ a {
 
 .table__heading {
   line-height: 1.15;
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -78,7 +75,7 @@ a {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
-  z-index: -1;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -97,6 +94,7 @@ a {
 
 .header__title {
   display: flex;
+  padding: 0;
   align-self: center;
   margin-left: 64px;
   max-width: 730px;
@@ -108,6 +106,8 @@ a {
 
 .header__subtitle {
   position: absolute;
+  margin: 0;
+  padding: 0;
   left: 64px;
   bottom: 30px;
   width: 388px;
@@ -122,7 +122,7 @@ a {
   color: #2f80ed;
 }
 
-.header__main_illustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
@@ -157,6 +157,8 @@ a {
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -171,10 +173,11 @@ a {
 }
 
 .two-columns__paragraph {
+  padding: 0;
+  margin: 30px 0 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 30px;
 }
 
 /* If element first in the list, it will not have top margin */
@@ -184,6 +187,7 @@ a {
 
 .two-columns__span-accent {
   margin: 30px 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -204,7 +208,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   position: relative;
 }
@@ -220,7 +224,8 @@ a {
 
 .feynman__title {
   width: 648px;
-  margin-top: 100px;
+  margin: 100px 0 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -230,16 +235,20 @@ a {
 
 .feynman__subtitle {
   width: 648px;
-  margin-top: 70px;
+  margin: 70px 0 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   z-index: 1;
 }
 
 .feynman__link {
   position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #2f80ed;
   text-decoration: none;
   top: 50%;
   right: 0;
@@ -285,11 +294,12 @@ a {
 }
 
 .kaufman__triangle {
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: 100%;
   position: absolute;
   width: 877px;
   height: 877px;
   right: -210px;
-  z-index: 0;
 }
 
 /* footer styles */
@@ -309,10 +319,13 @@ a {
   margin-bottom: 40px;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
-  width: 50%;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  width: 50%;
   justify-content: space-between;
 }
 
@@ -325,26 +338,24 @@ a {
 
 .footer__author {
   margin: 18px 0;
-  line-height: 18px;
-  font-size: 24px;
+  line-height: 25px;
+  font-size: 18px;
   font-weight: normal;
   color: white;
 }
 
 .footer__column_content_info {
-  display: flex;
   min-width: 10%;
-  flex-direction: column;
 }
 
 .footer__column_content_social {
-  display: flex;
   min-width: 10%;
-  flex-direction: column;
 }
 
 .footer__column-heading {
   display: flex;
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   color: white;
@@ -367,6 +378,7 @@ a {
   line-height: 30px;
   font-weight: normal;
   margin: 0;
+  padding: 0;
 }
 
 .footer__social-icon {
