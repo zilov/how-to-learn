@@ -39,7 +39,7 @@
   display: flex;
   width: 1100px;
   margin: 0 auto;
-  padding: auto;
+  padding: 0;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
@@ -338,7 +338,7 @@
 
 .footer__author {
   margin: 18px 0;
-  line-height: 25px;
+  line-height: 24px;
   font-size: 18px;
   font-weight: normal;
   color: white;
