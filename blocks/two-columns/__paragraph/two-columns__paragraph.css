@@ -1,0 +1,14 @@
+.two-columns__paragraph {
+    padding: 0;
+    margin: 30px 0 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+/* If element first in the list, it will not have top margin */
+
+.two-columns__paragraph:first-of-type {
+    margin-top: 0px;
+  }
+  
