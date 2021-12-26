@@ -2,6 +2,7 @@
     display: flex;
     margin-right: 20px;
     padding: 0;
+    border: 0;
 }
 
 .video__iframe:nth-of-type(2n+2) {
