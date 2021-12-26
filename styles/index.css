@@ -1,6 +1,11 @@
 /* page style */
-
+@import url(/styles/normalize.css);
 @import url(/blocks/page/page.css);
+
+/* animations styles */
+
+@import url(/blocks/link-opacity/link-opacity.css);
+@import url(/blocks/rotation/rotation.css);
 
 /* table styles */
 
@@ -24,7 +29,6 @@
 /* header styles */
 
 @import url(/blocks/header/header.css);
-@import url(/blocks/rotation/rotation.css);
 @import url(/blocks/header/__title/header__title.css);
 @import url(/blocks/header/__subtitle/header__subtitle.css);
 @import url(/blocks/header/__main-illustration/header__main-illustration.css);
@@ -36,7 +40,6 @@
 @import url(/blocks/logo/logo.css);
 @import url(/blocks/logo/_place/logo_place_header.css);
 @import url(/blocks/logo/_place/logo_place_footer.css);
-
 
 /* section description styles */
 

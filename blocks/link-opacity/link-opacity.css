@@ -1,0 +1,12 @@
+@keyframes link-opacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.link-opacity:hover {
+    animation: link-opacity 0.25s linear 0s forwards;
+}
