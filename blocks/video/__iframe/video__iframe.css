@@ -1,3 +1,9 @@
 .video__iframe {
-    min-width: none;
+    display: flex;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.video__iframe:nth-of-type(2n+2) {
+    margin-right: 0px;
 }
